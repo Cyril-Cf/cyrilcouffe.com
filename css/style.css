@@ -1,0 +1,213 @@
+/****************
+CLASSES GLOBALES
+*****************/
+
+.container {
+  max-width: 1060px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: inline-block;
+  color: white !important;
+  background-color: #970134;
+  border: 1px solid #970134;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
+}
+
+.button:hover {
+  color: #970134 !important;
+  background-color: white;
+}
+
+/****************
+STYLE GLOBAL
+*****************/
+
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
+
+/****************
+STYLE PAR SECTION
+*****************/
+
+/****************
+HEADER
+*****************/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/cinema.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 25px 0px;
+}
+
+header nav img {
+  height: 35px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+  font-size: 13px;
+  transition: all 0.2s ease 0s;
+}
+
+header nav ul li:hover {
+  text-decoration: underline;
+}
+
+header #titre {
+  text-align: center;
+  color: white;
+}
+header #titre h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+  padding-top: 40px;
+  margin: 0px;
+}
+
+header #titre p {
+  display: inline-block;
+  font-size: 13px;
+  margin: 0px;
+  margin-bottom: 160px;
+}
+
+/****************
+CONCEPT
+*****************/
+
+#concept {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+
+#concept h1 {
+  font-size: 30px;
+}
+
+#concept img {
+  object-fit: cover;
+  object-position: 100% 0;
+  width: 250px;
+  height: 250px;
+  margin-right: 50px;
+}
+
+/****************
+PROGRAMME
+*****************/
+
+#programme {
+  background-image: linear-gradient(
+      to top right,
+      rgba(145, 0, 46, 0.4),
+      rgba(77, 1, 26, 0.1)
+    ),
+    url("../img/salle.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+#programme h1 {
+  padding-top: 50px;
+  letter-spacing: 1px;
+}
+
+#programme ul {
+  display: flex;
+  font-size: 17px;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+#programme ul li {
+  transition: all 0.2s ease 0s;
+  width: 45%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  padding: 20px;
+}
+
+#programme ul li:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#programme ul li h2 {
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+/****************
+ABONNEMENT
+*****************/
+
+#abonnement {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+#abonnement ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#abonnement ul li {
+  transition: all 0.2s ease 0s;
+  width: 25%;
+  background-color: #970134;
+  border: 1px solid #970134;
+  padding: 20px;
+  color: white;
+}
+
+#abonnement ul li:hover {
+  background-color: white;
+  color: #970134;
+}
+
+#abonnement ul li p:first-of-type {
+  font-size: 25px;
+}
+
+#abonnement ul li sup {
+  font-size: 10px;
+}
+
+/****************
+FOOTER
+*****************/
+
+footer {
+  border-top: 1px solid #970134;
+  text-align: center;
+  color: black;
+  padding: 3px;
+}
