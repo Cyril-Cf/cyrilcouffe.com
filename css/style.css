@@ -50,7 +50,7 @@ h1 {
 header {
   background-image: linear-gradient(
       to top,
-      rgba(3, 99, 155, 1),
+      rgb(71, 71, 71, 1),
       rgba(0, 0, 0, 0.3)
     ),
     url("../img/pc_dark5.jpg");
@@ -268,11 +268,24 @@ header #titre p {
   background: #03639b;
   color: white;
   transform: skew(0deg, 4deg);
-  padding-bottom: 450px;
+  padding-bottom: 400px;
 }
 
 #portfolio .container {
   transform: skew(0deg, -4deg) translateY(100px);
+}
+
+#portfolio h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#carouselExampleCaptions img {
+  max-width: 1060px;
+  min-width: 1060px;
+  max-height: 600px;
+  min-height: 600px;
 }
 
 /****************
@@ -281,13 +294,29 @@ header #titre p {
 
 #contact .skewedBox5 {
   background: rgb(71, 71, 71);
-  color: white;
+  color: black;
   transform: skew(0deg, -4deg) translateY(-170px);
-  padding-bottom: 150px;
+}
+
+#contact .skewedBox5 h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#contact .skewedBox5 form label {
+  color: white;
+  font-size: 18px;
 }
 
 #contact .container {
-  transform: skew(0deg, 4deg) translateY(130px);
+  transform: skew(0deg, 4deg) translateY(100px);
+  width: 1060px;
+}
+
+#contact div {
+  display: flex;
+  flex-direction: column;
 }
 
 /****************
@@ -295,9 +324,117 @@ header #titre p {
 *****************/
 
 footer {
+  background: linear-gradient(
+    to top,
+    rgba(3, 99, 155, 1),
+    rgba(71, 71, 71, 0.3)
+  );
   color: white;
   text-align: center;
-  padding: 3px;
+  padding: 100px 30px 30px 30px;
+}
+
+footer #footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer #footer img {
+  width: 35px;
+  padding-left: 20px;
+}
+
+/* FORMULAIRE */
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  font-size: 0.825rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: black;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 0.5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
 }
 
 /* STYLE MOBILE */
@@ -310,6 +447,9 @@ footer {
   }
   #presentation img {
     margin-right: 0px;
+  }
+  #presentation article p {
+    text-align: center;
   }
   header #titre h1 {
     font-size: 40px;
