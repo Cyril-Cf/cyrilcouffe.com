@@ -12,50 +12,56 @@ CLASSES GLOBALES
 .button {
   display: inline-block;
   color: white !important;
-  background-color: #970134;
-  border: 1px solid #970134;
+  background-color: #03639b;
+  border: 1px solid #03639b;
   padding: 10px;
   text-decoration: none;
   transition: all 0.2s ease 0s;
 }
 
 .button:hover {
-  color: #970134 !important;
+  color: #03639b !important;
   background-color: white;
 }
 
 /****************
-STYLE GLOBAL
-*****************/
+  STYLE GLOBAL
+  *****************/
 
 body {
   font-family: "Work Sans", sans-serif;
   margin: 0;
+  line-height: 22px;
+  background: rgb(71, 71, 71);
 }
 
 h1 {
-  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /****************
-STYLE PAR SECTION
+  STYLE PAR SECTION
 *****************/
 
 /****************
-HEADER
+  HEADER
 *****************/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/cinema.jpg");
-  background-position: top;
+  background-image: linear-gradient(
+      to top right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../img/pc_dark5.jpg");
+  background-position: center;
   background-size: cover;
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: center;
   padding: 25px 0px;
 }
 
@@ -69,12 +75,17 @@ header nav ul {
 
 header nav ul li {
   margin-right: 20px;
-  font-size: 13px;
+  font-size: 16px;
   transition: all 0.2s ease 0s;
+  color: white;
+}
+
+header nav ul li:last-of-type {
+  margin-right: 0px;
 }
 
 header nav ul li:hover {
-  text-decoration: underline;
+  transform: translateY(-5px);
 }
 
 header #titre {
@@ -86,128 +97,161 @@ header #titre h1 {
   letter-spacing: 1px;
   padding-top: 40px;
   margin: 0px;
+  color: white;
+  margin-bottom: 25px;
 }
 
 header #titre p {
   display: inline-block;
-  font-size: 13px;
+  font-size: 15px;
   margin: 0px;
   margin-bottom: 160px;
+  color: white;
 }
 
 /****************
-CONCEPT
+  PRESENTATION
 *****************/
 
-#concept {
-  display: flex;
-  align-items: center;
-  margin: 50px auto;
+#presentation .skewedBox1 {
+  background: rgb(71, 71, 71);
+  color: white;
+  transform: skew(0deg, 4deg) translateY(95px);
+  margin: 0;
 }
 
-#concept h1 {
+#presentation .container {
+  transform: skew(0deg, -4deg) translateY(-65px);
+}
+
+#presentation div div {
+  display: flex;
+  align-items: center;
+}
+
+#presentation div div:first-of-type {
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+
+#presentation h1 {
   font-size: 30px;
 }
 
-#concept img {
+#presentation img {
   object-fit: cover;
-  object-position: 100% 0;
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   margin-right: 50px;
 }
 
+#presentation article p {
+  text-align: justify;
+}
+
+#recherche p {
+  padding: 0px;
+  padding-top: 20px;
+}
+
+#recherche a {
+  margin-left: 10px;
+}
+
 /****************
-PROGRAMME
+  COMPETENCES
 *****************/
 
-#programme {
-  background-image: linear-gradient(
-      to top right,
-      rgba(145, 0, 46, 0.4),
-      rgba(77, 1, 26, 0.1)
-    ),
-    url("../img/salle.jpg");
-  background-position: center;
-  background-size: cover;
+#competences {
+  background: #03639b;
+  color: white;
+  padding-bottom: 550px;
+}
+
+#competences .container {
+  transform: translateY(150px);
+}
+
+#competences ul {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
+}
+
+/****************
+  VALEURS
+*****************/
+
+#valeurs .skewedBox3 {
+  background: rgb(71, 71, 71);
+  transform: skew(0deg, -4deg) translateY(-70px);
+  margin: 0;
+  padding-bottom: 250px;
   color: white;
 }
 
-#programme h1 {
-  padding-top: 50px;
-  letter-spacing: 1px;
-}
-
-#programme ul {
-  display: flex;
-  font-size: 17px;
-  justify-content: space-between;
-  padding-bottom: 35px;
-}
-
-#programme ul li {
-  transition: all 0.2s ease 0s;
-  width: 45%;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid white;
-  padding: 20px;
-}
-
-#programme ul li:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-#programme ul li h2 {
-  margin: 0px;
-  padding-bottom: 30px;
+#valeurs .container {
+  transform: skew(0deg, 4deg) translateY(120px);
 }
 
 /****************
-ABONNEMENT
+  PORTFOLIO
 *****************/
 
-#abonnement {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-#abonnement ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-#abonnement ul li {
-  transition: all 0.2s ease 0s;
-  width: 25%;
-  background-color: #970134;
-  border: 1px solid #970134;
-  padding: 20px;
+#portfolio .skewedBox4 {
+  background: #03639b;
   color: white;
+  transform: skew(0deg, 4deg);
+  padding-bottom: 450px;
 }
 
-#abonnement ul li:hover {
-  background-color: white;
-  color: #970134;
-}
-
-#abonnement ul li p:first-of-type {
-  font-size: 25px;
-}
-
-#abonnement ul li sup {
-  font-size: 10px;
+#portfolio .container {
+  transform: skew(0deg, -4deg) translateY(100px);
 }
 
 /****************
-FOOTER
+  CONTACT
+*****************/
+
+#contact .skewedBox5 {
+  background: rgb(71, 71, 71);
+  color: white;
+  transform: skew(0deg, -4deg) translateY(-170px);
+  padding-bottom: 150px;
+}
+
+#contact .container {
+  transform: skew(0deg, 4deg) translateY(130px);
+}
+
+/****************
+  FOOTER
 *****************/
 
 footer {
-  border-top: 1px solid #970134;
+  color: white;
   text-align: center;
-  color: black;
   padding: 3px;
+}
+
+/* STYLE MOBILE */
+@media (max-width: 767px) {
+  #presentation div {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #presentation img {
+    margin-right: 0px;
+  }
+  header #titre h1 {
+    font-size: 40px;
+  }
+  header #titre p {
+    font-size: 14px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 100px;
+  }
 }
