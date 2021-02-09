@@ -2,13 +2,6 @@
 CLASSES GLOBALES
 *****************/
 
-.container {
-  max-width: 1060px;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .button {
   display: inline-block;
   color: white !important;
