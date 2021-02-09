@@ -445,7 +445,16 @@ footer #footer img {
 }
 
 /* STYLE MOBILE */
-@media (max-width: 575px) {
+@media (max-width: 780px) {
+  header #titre h1 {
+    font-size: 40px;
+  }
+  header #titre p {
+    font-size: 14px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 100px;
+  }
   #presentation div {
     flex-direction: column;
     text-align: center;
@@ -457,15 +466,6 @@ footer #footer img {
   }
   #presentation article p {
     text-align: center;
-  }
-  header #titre h1 {
-    font-size: 40px;
-  }
-  header #titre p {
-    font-size: 14px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 100px;
   }
   #competences ul {
     flex-direction: column;
@@ -485,5 +485,16 @@ footer #footer img {
   }
   #valeurs img {
     margin-top: 25px;
+  }
+  #carouselExampleCaptions img {
+    max-width: 767px;
+    min-width: 767pxpx;
+    max-height: 400px;
+    min-height: 400px;
+    filter: brightness(45%);
+    object-fit: cover;
+  }
+  #contact .container {
+    width: 450px;
   }
 }
