@@ -32,7 +32,7 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: 0;
   line-height: 22px;
-  background: rgb(71, 71, 71);
+  background: whitesmoke;
 }
 
 h1 {
@@ -48,13 +48,9 @@ h1 {
 *****************/
 
 header {
-  background-image: linear-gradient(
-      to top,
-      rgb(71, 71, 71, 1),
-      rgba(0, 0, 0, 0.3)
-    ),
-    url("../img/pc_dark5.jpg");
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("../img/ultrawide.jpg");
+  background-position: top;
   background-size: cover;
 }
 
@@ -62,7 +58,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 0px;
+  padding: 75px 0px 0px 0px;
 }
 
 header nav img {
@@ -90,7 +86,7 @@ header nav ul li:hover {
 
 header #titre {
   text-align: center;
-  color: white;
+  color: black;
 }
 header #titre h1 {
   font-size: 50px;
@@ -103,7 +99,7 @@ header #titre h1 {
 
 header #titre p {
   display: inline-block;
-  font-size: 15px;
+  font-size: 19px;
   margin: 0px;
   margin-bottom: 160px;
   color: white;
@@ -114,8 +110,8 @@ header #titre p {
 *****************/
 
 #presentation .skewedBox1 {
-  background: rgb(71, 71, 71);
-  color: white;
+  background: whitesmoke;
+  color: black;
   transform: skew(0deg, 4deg) translateY(95px);
   margin: 0;
 }
@@ -130,11 +126,11 @@ header #titre p {
 }
 
 #presentation div div:first-of-type {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   padding-bottom: 20px;
 }
 
-#presentation h1 {
+#presentation h2 {
   font-size: 30px;
 }
 
@@ -173,7 +169,7 @@ header #titre p {
 }
 
 #competences .container {
-  transform: translateY(150px);
+  transform: translateY(165px);
 }
 
 #competences ul {
@@ -217,12 +213,18 @@ header #titre p {
   font-size: 18px;
 }
 
+#competences h2 {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
 #competences p {
   font-size: 14px;
 }
 
 #competences #colonne img {
   width: 30px;
+  padding-bottom: 5px;
 }
 
 #competences #colonne {
@@ -241,7 +243,7 @@ header #titre p {
 }
 
 #competences #asterisque {
-  transform: translateX(55px);
+  transform: translateX(65px);
 }
 
 /****************
@@ -249,11 +251,11 @@ header #titre p {
 *****************/
 
 #valeurs .skewedBox3 {
-  background: rgb(71, 71, 71);
+  background: whitesmoke;
   transform: skew(0deg, -4deg) translateY(-70px);
   margin: 0;
   padding-bottom: 250px;
-  color: white;
+  color: black;
 }
 
 #valeurs .container {
@@ -275,8 +277,7 @@ header #titre p {
   transform: skew(0deg, -4deg) translateY(100px);
 }
 
-#portfolio h1 {
-  font-size: 30px;
+#portfolio h2 {
   text-align: center;
   padding-bottom: 25px;
 }
@@ -286,6 +287,8 @@ header #titre p {
   min-width: 1060px;
   max-height: 600px;
   min-height: 600px;
+  filter: brightness(25%);
+  object-fit: cover;
 }
 
 /****************
@@ -293,24 +296,24 @@ header #titre p {
 *****************/
 
 #contact .skewedBox5 {
-  background: rgb(71, 71, 71);
+  background: whitesmoke;
   color: black;
   transform: skew(0deg, -4deg) translateY(-170px);
 }
 
 #contact .skewedBox5 h2 {
-  color: white;
+  color: black;
   text-align: center;
   padding-bottom: 25px;
 }
 
 #contact .skewedBox5 form label {
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
 #contact .container {
-  transform: skew(0deg, 4deg) translateY(100px);
+  transform: skew(0deg, 4deg) translateY(80px);
   width: 1060px;
 }
 
@@ -324,14 +327,10 @@ header #titre p {
 *****************/
 
 footer {
-  background: linear-gradient(
-    to top,
-    rgba(3, 99, 155, 1),
-    rgba(71, 71, 71, 0.3)
-  );
+  background: rgb(3, 99, 155);
   color: white;
   text-align: center;
-  padding: 100px 30px 30px 30px;
+  padding: 30px 30px 20px 30px;
 }
 
 footer #footer {
