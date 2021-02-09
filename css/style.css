@@ -174,7 +174,6 @@ header #titre p {
 #competences ul li {
   border: 2px solid white;
   padding: 15px;
-  margin-right: 15px;
   min-width: 400px;
   max-width: 400px;
 }
@@ -216,7 +215,10 @@ header #titre p {
 }
 
 #competences #colonne img {
-  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
   padding-bottom: 5px;
 }
 
@@ -228,15 +230,11 @@ header #titre p {
 }
 
 #competences #colonne p {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
-#competences h1:last-of-type {
-  padding-bottom: 40px;
-}
-
-#competences #asterisque {
-  transform: translateX(65px);
+#competences h2:last-of-type {
+  padding-bottom: 60px;
 }
 
 /****************
@@ -448,16 +446,17 @@ footer #footer img {
     margin-bottom: 100px;
   }
   header nav ul li {
-    font-size: 10px;
+    font-size: 13px;
   }
   #presentation div {
     flex-direction: column;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #presentation img {
     margin-right: 0px;
+    margin-bottom: 20px;
   }
   #presentation article p {
     text-align: center;
