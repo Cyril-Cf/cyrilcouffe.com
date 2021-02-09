@@ -246,7 +246,6 @@ header #titre p {
 #valeurs .skewedBox3 {
   background: whitesmoke;
   transform: skew(0deg, -4deg) translateY(-70px);
-  margin: 0;
   padding-bottom: 150px;
   color: black;
 }
@@ -448,6 +447,9 @@ footer #footer img {
     margin-right: 35px;
     margin-bottom: 100px;
   }
+  header nav ul li {
+    font-size: 10px;
+  }
   #presentation div {
     flex-direction: column;
     text-align: center;
@@ -465,8 +467,8 @@ footer #footer img {
   }
   #competences ul li {
     border: 1px solid white;
-    min-width: 350px;
-    max-width: 350px;
+    min-width: 300px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -475,9 +477,14 @@ footer #footer img {
   }
   #competences #asterisque {
     transform: translateX(15px);
+    font-size: 10px;
   }
   #valeurs img {
     margin-top: 25px;
+    max-width: 280px;
+    min-width: 280px;
+    max-height: 240px;
+    min-height: 240px;
   }
   #carouselExampleCaptions img {
     max-width: 767px;
@@ -488,6 +495,6 @@ footer #footer img {
     object-fit: cover;
   }
   #contact .container {
-    width: 450px;
+    width: 350px;
   }
 }
