@@ -558,7 +558,13 @@ footer #footer img {
     margin-bottom: 10px;
   }
   #visibilite .width {
+<<<<<<< HEAD
     width: 300px;
+=======
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+>>>>>>> 4765f48e2af615af2cae9438ca02930df00e7da8
   }
   #visibilite .cards img {
     width: 280px;
