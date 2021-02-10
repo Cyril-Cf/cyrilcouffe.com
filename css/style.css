@@ -307,15 +307,19 @@ header #titre p {
   width: 1060px;
 }
 
-#visibilite .video-js {
-  width: 600px;
-  margin-right: 25px;
+#visibilite #my-player {
+  width: 692px;
+  height: 388px;
 }
 
 #visibilite #video {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  text-align: center;
+}
+
+#visibilite .width {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #visibilite .cards {
@@ -548,14 +552,14 @@ footer #footer img {
   #visibilite .container {
     width: 350px;
   }
-  #visibilite .video-js {
-    width: 350px;
-    margin-right: 0px;
-    margin-bottom: 25px;
+  #visibilite #my-player {
+    width: 300px;
+    height: 200px;
   }
-  #visibilite #video {
-    flex-direction: column;
-    align-items: center;
+  #visibilite .width {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
   }
   #visibilite .cards img {
     width: 280px;
