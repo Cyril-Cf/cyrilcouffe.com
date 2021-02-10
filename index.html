@@ -10,8 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Work+Sans:ital,wght@0,400;1,200&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -174,7 +173,7 @@
                     <h2 class="text-center pb-3">Mes valeurs personnelles</h2>
                     <div class="row">
                         <div class="card-group">
-                            <div class="card col-lg-2">
+                            <div class="card col-lg-3">
                                 <img src="img/pain_chocolat.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="pain au chocolat">
                                 <div class="card-body">
@@ -183,7 +182,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card col-lg-2">
+                            <div class="card col-lg-3">
                                 <img src="img/worldmap.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="Mappemonde">
                                 <div class="card-body">
@@ -192,7 +191,7 @@
                                         Costa Rica</p>
                                 </div>
                             </div>
-                            <div class="card col-lg-2 col-lg-offset-1">
+                            <div class="card col-lg-3">
                                 <img src="img/marine_turtle.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="tortue">
                                 <div class="card-body">
@@ -203,10 +202,9 @@
                             </div>
                         </div>
                     </div>
-                    <br id="br">
                     <div class="row">
                         <div class="card-group">
-                            <div class="card col-lg-2">
+                            <div class="card col-lg-3">
                                 <img src="img/gaming_session.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="pain au chocolat">
                                 <div class="card-body">
@@ -215,7 +213,7 @@
                                         européens</p>
                                 </div>
                             </div>
-                            <div class="card col-lg-2">
+                            <div class="card col-lg-3">
                                 <img src="img/running.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="Costa Rica">
                                 <div class="card-body">
@@ -223,7 +221,7 @@
                                     <p class="card-text text-center">Pratique régulière du running et oiseau de nuit</p>
                                 </div>
                             </div>
-                            <div class="card col-lg-2">
+                            <div class="card col-lg-3">
                                 <img src="img/american_flag.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="tortue">
                                 <div class="card-body">
@@ -249,29 +247,48 @@
                             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
                             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
                             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/API.png" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="fs-1"><a href="https://github.com/Cyril-Cf/API-REST" target="_blank">API
-                                            REST</a></h5>
-                                    <p class="fs-5 mt-2">API REST en PHP/SQL et sa documentation</p>
+                                <img src="img/API.png" alt="API">
+                                <div class="carousel-caption d-md-block">
+                                    <div id="fond">
+                                        <h5 id="carousel1"><a href="https://github.com/Cyril-Cf/API-REST"
+                                                target="_blank">API
+                                                REST</a></h5>
+                                        <p id="carousel2">API REST en PHP/SQL et sa documentation</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/Heatmap.png" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="fs-1"><a href="https://github.com/Cyril-Cf/Eyetracking---Python"
-                                            target="_blank">Eye-tracking des utilisateurs</a></h5>
-                                    <p class="fs-5 mt-2">Heatmap - script en Python simulant une boite mail</p>
+                                <img src="img/Heatmap.png" alt="Heatmap">
+                                <div class="carousel-caption d-md-block">
+                                    <div id="fond">
+                                        <h5 id="carousel1"><a href="https://github.com/Cyril-Cf/Eyetracking---Python"
+                                                target="_blank">Eye-tracking des utilisateurs</a></h5>
+                                        <p id="carousel2">Heatmap - script en Python simulant une boite mail</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/interview.png" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5 class="fs-1">Visibilité & communication</h5>
-                                    <p class="fs-5 mt-2">Interviews et articles presse </p>
+                                <img src="img/magnifying_glass.jpg" alt="loupe">
+                                <div class="carousel-caption d-md-block">
+                                    <div id="fond">
+                                        <h5 id="carousel1"><a href="https://github.com/Cyril-Cf/scraping-web"
+                                                target="_blank">Scraping Web</a></h5>
+                                        <p id="carousel2">Surveillance jobboard - Python</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/interview.png" alt="interview">
+                                <div class="carousel-caption d-md-block">
+                                    <div id="fond">
+                                        <h5 id="carousel1"><a href="https://github.com/Cyril-Cf/API-REST"
+                                                target="_blank">Visibilité et communication</a></h5>
+                                        <p id="carousel2">Interviews et articles presse</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +346,7 @@
     </footer>
     <!-- FIN FOOTER -->
 
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 

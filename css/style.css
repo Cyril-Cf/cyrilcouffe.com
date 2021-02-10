@@ -17,6 +17,21 @@ CLASSES GLOBALES
   background-color: white;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+*:hover {
+  transition: all 0.2s ease 0s;
+}
+
 /****************
   STYLE GLOBAL
   *****************/
@@ -257,7 +272,12 @@ header #titre p {
   min-width: 340px;
   max-height: 300px;
   min-height: 300px;
+  margin-top: 25px;
   object-fit: cover;
+}
+
+#valeurs .card-group:first-of-type {
+  margin-bottom: 20px;
 }
 
 /****************
@@ -273,6 +293,7 @@ header #titre p {
 
 #portfolio .container {
   transform: skew(0deg, -4deg) translateY(100px);
+  width: 1060px;
 }
 
 #portfolio h2 {
@@ -287,6 +308,24 @@ header #titre p {
   min-height: 600px;
   filter: brightness(45%);
   object-fit: cover;
+}
+
+.carousel-caption {
+  top: 1.25rem;
+}
+
+#portfolio #carousel1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#portfolio #carousel2 {
+  font-size: 25px;
+}
+
+#portfolio #fond {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 0px 10px 0px;
 }
 
 /****************
@@ -446,7 +485,7 @@ footer #footer img {
     margin-bottom: 100px;
   }
   header nav ul li {
-    font-size: 13px;
+    font-size: 12px;
   }
   #presentation div {
     flex-direction: column;
@@ -474,24 +513,35 @@ footer #footer img {
   #competences ul li:first-of-type {
     margin-bottom: 25px;
   }
-  #competences #asterisque {
-    transform: translateX(15px);
-    font-size: 10px;
+  #competences p {
+    font-size: 12px;
   }
   #valeurs img {
-    margin-top: 25px;
     max-width: 280px;
     min-width: 280px;
     max-height: 240px;
     min-height: 240px;
   }
+  #valeurs .card-group:first-of-type {
+    margin-bottom: 0px;
+  }
   #carouselExampleCaptions img {
-    max-width: 767px;
-    min-width: 767pxpx;
-    max-height: 400px;
-    min-height: 400px;
+    max-height: 300px;
+    min-height: 300px;
     filter: brightness(45%);
     object-fit: cover;
+  }
+  #portfolio .container {
+    width: 350px;
+  }
+  #portfolio #carousel1 {
+    font-size: 19px;
+  }
+  #portfolio #carousel2 {
+    font-size: 10px;
+  }
+  #portfolio #fond {
+    padding: 0px;
   }
   #contact .container {
     width: 350px;
