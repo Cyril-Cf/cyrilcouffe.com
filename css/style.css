@@ -89,7 +89,7 @@ header nav ul li:last-of-type {
 
 header nav ul li:hover {
   transform: translateY(-5px);
-  color: white;
+  color: white !important;
 }
 
 header #titre {
@@ -278,17 +278,54 @@ header #titre p {
 }
 
 #portfolio #carousel1 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 
 #portfolio #carousel2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #portfolio #fond {
   background: rgba(0, 0, 0, 0.6);
   padding: 5px 0px 10px 0px;
+}
+
+/****************
+  VISIBILITE
+*****************/
+
+#visibilite .skewedBox5 {
+  background: whitesmoke;
+  color: black;
+  transform: skew(0deg, -4deg) translateY(-170px);
+  padding-bottom: 120px;
+}
+
+#visibilite .container {
+  transform: skew(0deg, 4deg) translateY(80px);
+  width: 1060px;
+}
+
+#visibilite .video-js {
+  width: 600px;
+  margin-right: 25px;
+}
+
+#visibilite #video {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#visibilite .cards {
+  padding-top: 50px;
+}
+
+#visibilite .cards img {
+  width: 240p;
+  height: 200px;
+  object-fit: cover;
 }
 
 /****************
@@ -313,6 +350,8 @@ header #titre p {
 }
 
 #contact .container {
+  border-top: 1px solid rgb(3, 99, 155);
+  padding-top: 40px;
   transform: skew(0deg, 4deg) translateY(80px);
   width: 1060px;
 }
@@ -486,12 +525,12 @@ footer #footer img {
     margin-bottom: 0px;
   }
   #carouselExampleCaptions img {
-    height: 300px;
+    height: 270px;
     filter: brightness(45%);
     object-fit: cover;
   }
   #portfolio .container {
-    width: 350px;
+    width: 400px;
   }
   #portfolio #carousel1 {
     font-size: 19px;
@@ -501,6 +540,23 @@ footer #footer img {
   }
   #portfolio #fond {
     padding: 0px;
+  }
+  #visibilite .container {
+    width: 350px;
+  }
+  #visibilite .video-js {
+    width: 400px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+  #visibilite #video {
+    flex-direction: column;
+    align-items: center;
+  }
+  #visibilite .cards img {
+    width: 280px;
+    height: 240px;
+    margin-top: 15px;
   }
   #contact .container {
     width: 350px;
