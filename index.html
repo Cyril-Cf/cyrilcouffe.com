@@ -308,9 +308,25 @@
                 <div class="container">
                     <h2 id="visibilite2" class="text-center fs-2 pb-5">Visibilité et communication</h2>
                     <div id="video">
-                        <video id="my-player" class="video-js" controls preload="auto" poster="img/interview.jpg"
+                        <video id="my-player" class="video-js" controls preload="none" poster="img/interview.jpg"
+                            data-setup='{}'>
+                            <source src="vid/BFM.mp4" type="video/mp4">
+                            </source>
+                            <!-- <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm">
+                            </source>
+                            <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
+                            </source> -->
+                            <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a
+                                web browser that
+                                <a href="https://videojs.com/html5-video-support/" target="_blank">
+                                    supports HTML5 video
+                                </a>
+                            </p>
+                        </video>
+                        <!-- <video id="my-player" class="video-js" controls preload="auto" poster="img/interview.jpg"
                             data-setup='{"preload": "none"}'>
-                            <source src="/vid/BFM.mp4" type="video/mp4">
+                            <source src="https://www.dailymotion.com/video/x66n2xy" type="video/mp4">
                             </source>
                             <p class="vjs-no-js">
                                 To view this video please enable JavaScript, and consider upgrading to a
@@ -320,7 +336,7 @@
                                 </a>
                             </p>
                         </video>
-                        <script src="vid/BFM.mp4"></script>
+                        <script src="vid/BFM.mp4"></script> -->
                         <div id="textVideo">
                             <h2 class="fs-3">Interview BFM Business</h2>
                             <p>Intervention télévisée afin de présenter mes travaux de recherche et leurs implications
@@ -412,6 +428,7 @@
     <!-- FIN FOOTER -->
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
 </body>
 
 </html>
