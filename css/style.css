@@ -328,6 +328,10 @@ header #titre p {
   object-fit: cover;
 }
 
+#visibilite .cards img:hover {
+  filter: brightness(45%);
+}
+
 /****************
   CONTACT
 *****************/
@@ -487,7 +491,7 @@ footer #footer img {
     margin-bottom: 100px;
   }
   header nav ul li {
-    font-size: 12px;
+    font-size: 10px;
   }
   #presentation div {
     flex-direction: column;
