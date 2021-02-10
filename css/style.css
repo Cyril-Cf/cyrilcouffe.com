@@ -25,7 +25,6 @@ a:visited {
 
 ul {
   list-style: none;
-  padding-left: 0;
 }
 
 *:hover {
@@ -90,27 +89,25 @@ header nav ul li:last-of-type {
 
 header nav ul li:hover {
   transform: translateY(-5px);
+  color: white;
 }
 
 header #titre {
   text-align: center;
-  color: black;
+  color: white;
 }
+
 header #titre h1 {
   font-size: 50px;
   letter-spacing: 1px;
   padding-top: 40px;
-  margin: 0px;
-  color: white;
   margin-bottom: 25px;
 }
 
 header #titre p {
   display: inline-block;
   font-size: 19px;
-  margin: 0px;
   margin-bottom: 160px;
-  color: white;
 }
 
 /****************
@@ -121,7 +118,6 @@ header #titre p {
   background: whitesmoke;
   color: black;
   transform: skew(0deg, 4deg) translateY(95px);
-  margin: 0;
 }
 
 #presentation .container {
@@ -134,12 +130,8 @@ header #titre p {
 }
 
 #presentation div div:first-of-type {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(3, 99, 155);
   padding-bottom: 20px;
-}
-
-#presentation h2 {
-  font-size: 30px;
 }
 
 #presentation img {
@@ -154,7 +146,6 @@ header #titre p {
 }
 
 #recherche p {
-  padding: 0px;
   padding-top: 20px;
 }
 
@@ -172,10 +163,6 @@ header #titre p {
   padding-bottom: 275px;
 }
 
-#competences h1 {
-  font-size: 22px;
-}
-
 #competences .container {
   transform: translateY(165px);
 }
@@ -189,8 +176,7 @@ header #titre p {
 #competences ul li {
   border: 2px solid white;
   padding: 15px;
-  min-width: 400px;
-  max-width: 400px;
+  width: 400px;
 }
 
 #competences ul li:hover {
@@ -204,25 +190,12 @@ header #titre p {
   justify-content: space-evenly;
 }
 
-#competences #java {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 #competences #java,
 #ligne2,
 #ligne3 {
   background: rgba(0, 0, 0, 0.15);
   margin-bottom: 20px;
-}
-
-#competences .titre {
-  font-size: 18px;
-}
-
-#competences h2 {
-  font-size: 22px;
-  padding-bottom: 15px;
+  padding-top: 5px;
 }
 
 #competences p {
@@ -230,11 +203,9 @@ header #titre p {
 }
 
 #competences #colonne img {
-  min-width: 30px;
-  max-width: 30px;
-  min-height: 30px;
-  max-height: 30px;
-  padding-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 8px;
 }
 
 #competences #colonne {
@@ -268,10 +239,8 @@ header #titre p {
 }
 
 #valeurs img {
-  max-width: 340px;
-  min-width: 340px;
-  max-height: 300px;
-  min-height: 300px;
+  width: 340p;
+  height: 300px;
   margin-top: 25px;
   object-fit: cover;
 }
@@ -288,7 +257,7 @@ header #titre p {
   background: #03639b;
   color: white;
   transform: skew(0deg, 4deg);
-  padding-bottom: 400px;
+  padding-bottom: 350px;
 }
 
 #portfolio .container {
@@ -296,16 +265,9 @@ header #titre p {
   width: 1060px;
 }
 
-#portfolio h2 {
-  text-align: center;
-  padding-bottom: 25px;
-}
-
 #carouselExampleCaptions img {
-  max-width: 1060px;
-  min-width: 1060px;
-  max-height: 600px;
-  min-height: 600px;
+  width: 1060px;
+  height: 600px;
   filter: brightness(45%);
   object-fit: cover;
 }
@@ -505,8 +467,7 @@ footer #footer img {
   }
   #competences ul li {
     border: 1px solid white;
-    min-width: 300px;
-    max-width: 300px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -517,17 +478,14 @@ footer #footer img {
     font-size: 12px;
   }
   #valeurs img {
-    max-width: 280px;
-    min-width: 280px;
-    max-height: 240px;
-    min-height: 240px;
+    width: 280px;
+    height: 240px;
   }
   #valeurs .card-group:first-of-type {
     margin-bottom: 0px;
   }
   #carouselExampleCaptions img {
-    max-height: 300px;
-    min-height: 300px;
+    height: 300px;
     filter: brightness(45%);
     object-fit: cover;
   }
