@@ -495,7 +495,8 @@ footer #footer img {
     margin-bottom: 100px;
   }
   header nav ul li {
-    font-size: 10px;
+    font-size: 11px;
+    margin-right: 10px;
   }
   #presentation div {
     flex-direction: column;
