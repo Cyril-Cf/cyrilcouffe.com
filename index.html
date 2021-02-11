@@ -20,22 +20,43 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <nav id="nav">
-                <a id="logo" href="#nav"><img src="logos/brain.svg" alt="logo"></a>
-                <ul>
-                    <li><a href="#presentation">Bio</a></li>
-                    <li><a href="#competences2">Skills</a></li>
-                    <li><a href="#valeurs">Valeurs</a></li>
-                    <li><a href="#portfolio2">Projets</a></li>
-                    <li><a href="#visibilite2">Presse</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbarFull">
+                <div class="container-fluid">
+                    <a id="logo" class="navbar-brand" href="#"><img src="logos/brain2.svg" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="#presentation2">Bio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#competences2">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#valeurs2">Valeurs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#portfolio2">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#visibilite2">Presse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
             <div id="titre">
                 <h1>Cyril COUFFE</h1>
                 <p> Apprenant développeur "Concepteur, Développeur d'Applications" </p>
             </div>
         </div>
+        <div id="presentation2"></div>
     </header>
     <!-- FIN HEADER -->
 
@@ -78,8 +99,8 @@
 
         <!-- SECTION COMPETENCES -->
         <section id="competences">
-            <div class="skewedBox2">
-                <div id="competences2" class="container">
+            <div id="competences2" class="skewedBox2">
+                <div class="container">
                     <ul>
                         <li>
                             <h2 class="fs-5 pb-5">Compétences techniques*</h2>
@@ -173,43 +194,40 @@
 
         <!-- SECTION VALEURS -->
         <section id="valeurs">
-            <div class="skewedBox3">
+            <div id="valeurs2" class="skewedBox3">
                 <div class="container">
                     <h2 class="text-center pb-3">Mes valeurs personnelles</h2>
-                    <div class="row">
-                        <div class="card-group">
-                            <div class="card col-lg-3">
-                                <img src="img/pain_chocolat.jpg" class="card-img-top img-fluid mx-auto d-block"
-                                    alt="pain au chocolat">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Curieux</h5>
-                                    <p class="card-text text-center">Obtention du CAP pâtissier candidat libre en 2018
-                                    </p>
-                                </div>
+                    <div class="card-group width">
+                        <div id="smallCard" class="card">
+                            <img src="img/pain_chocolat.jpg" class="card-img-top img-fluid mx-auto d-block"
+                                alt="pain au chocolat">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Curieux</h5>
+                                <p class="card-text text-center">Obtention du CAP pâtissier candidat libre en 2018
+                                </p>
                             </div>
-                            <div class="card col-lg-3">
-                                <img src="img/worldmap.jpg" class="card-img-top img-fluid mx-auto d-block"
-                                    alt="Mappemonde">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Explorateur</h5>
-                                    <p class="card-text text-center">Séjours longs aux Galapagos, Etats-Unis, Japon,
-                                        Costa Rica</p>
-                                </div>
+                        </div>
+                        <div id="smallCard" class="card">
+                            <img src="img/worldmap.jpg" class="card-img-top img-fluid mx-auto d-block" alt="Mappemonde">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Explorateur</h5>
+                                <p class="card-text text-center">Séjours longs aux Galapagos, Etats-Unis, Japon,
+                                    Costa Rica</p>
                             </div>
-                            <div class="card col-lg-3">
-                                <img src="img/marine_turtle.jpg" class="card-img-top d-block img-fluid mx-auto"
-                                    alt="tortue">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Responsable</h5>
-                                    <p class="card-text text-center">Réalisation de plusieurs missions de volontariat
-                                        ecologique</p>
-                                </div>
+                        </div>
+                        <div id="smallCard" class="card">
+                            <img src="img/marine_turtle.jpg" class="card-img-top d-block img-fluid mx-auto"
+                                alt="tortue">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Responsable</h5>
+                                <p class="card-text text-center">Réalisation de plusieurs missions de volontariat
+                                    ecologique</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="card-group">
-                            <div class="card col-lg-3">
+                    <div>
+                        <div class="card-group width">
+                            <div id="smallCard" class="card">
                                 <img src="img/gaming_session.jpg" class="card-img-top img-fluid mx-auto d-block"
                                     alt="gamers">
                                 <div class="card-body">
@@ -218,14 +236,14 @@
                                         européens</p>
                                 </div>
                             </div>
-                            <div class="card col-lg-3">
+                            <div id="smallCard" class="card">
                                 <img src="img/running.jpg" class="card-img-top img-fluid mx-auto d-block" alt="runner">
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Energique</h5>
                                     <p class="card-text text-center">Pratique régulière du running et oiseau de nuit</p>
                                 </div>
                             </div>
-                            <div class="card col-lg-3">
+                            <div id="smallCard" class="card">
                                 <img src="img/american_flag.jpg" class="card-img-top d-block img-fluid mx-auto"
                                     alt="drapeau américan">
                                 <div class="card-body">
@@ -242,9 +260,9 @@
 
         <!-- SECTION PORTFOLIO -->
         <section id="portfolio">
-            <div class="skewedBox4">
-                <div id="portfolio2" class="container">
-                    <h2 class="fs-2 text-center pb-4">PROJETS</h2>
+            <div id="portfolio2" class="skewedBox4">
+                <div class="container">
+                    <h2 class="fs-2 text-center pb-4">Portfolio</h2>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
@@ -304,9 +322,9 @@
 
         <!-- SECTION VISIBILITE -->
         <section id="visibilite">
-            <div class="skewedBox5">
+            <div id="visibilite2" class="skewedBox5">
                 <div class="container">
-                    <h2 id="visibilite2" class="text-center fs-2 pb-1">Presse</h2>
+                    <h2 class="text-center fs-2 pb-1">Presse</h2>
                     <h2 class="text-center fs-4 pb-4">Visibilité et communication</h2>
                     <div id="video" class="width">
                         <video id="my-player" class="video-js" controls preload="none" poster="img/interview.jpg"
@@ -331,7 +349,7 @@
                     <div class="cards">
                         <div class="row">
                             <div class="card-group">
-                                <div class="card col-lg-3">
+                                <div id="smallCard" class="card col-lg-3">
                                     <a href="https://rmc.bfmtv.com/emission/comment-l-hyperconnexion-au-travail-nous-rend-finalement-beaucoup-moins-productif-1169379.html
                                     " target="_blank"><img src="img/cables.jpg"
                                             class="card-img-top img-fluid mx-auto d-block" alt="cables"></a>
@@ -342,7 +360,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="card col-lg-3">
+                                <div id="smallCard" class="card col-lg-3">
                                     <a href="https://www.hbrfrance.fr/chroniques-experts/2017/07/16369-droit-a-deconnexion-avancee-collaborateurs/"
                                         target="_blank"><img src="img/plug.jpg"
                                             class="card-img-top img-fluid mx-auto d-block" alt="prise"></a>
@@ -353,7 +371,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="card col-lg-3">
+                                <div id="smallCard" class="card col-lg-3">
                                     <a href="https://lelephant-larevue.fr/thematiques/temps-perdu-a-cause-attention/"
                                         target="_blank"><img src="img/time.jpg"
                                             class="card-img-top img-fluid mx-auto d-block" alt="horloge"></a>
