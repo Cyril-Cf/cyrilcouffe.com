@@ -278,9 +278,13 @@ header #titre p {
   font-size: 20px;
 }
 
+#portfolio .carousel-caption {
+  padding-top: 0;
+}
+
 #portfolio #fond {
   background: rgba(0, 0, 0, 0.6);
-  padding: 5px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 /****************
@@ -554,6 +558,10 @@ footer #footer img {
   }
   #portfolio #fond {
     padding: 0px;
+  }
+  #portfolio .button {
+    margin-bottom: 15px;
+    font-size: 12px;
   }
   #visibilite .container {
     width: 350px;
