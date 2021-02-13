@@ -152,40 +152,38 @@ header #titre p {
 }
 
 /****************
-  COMPETENCES
+  skills
 *****************/
 
-#competences {
+#skills {
   background: rgb(3, 99, 155);
   color: white;
   padding-bottom: 275px;
 }
 
-#competences .container {
+#skills .container {
   transform: translateY(165px);
 }
 
-#competences ul {
+#skills ul {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   padding: 0;
 }
 
-#competences ul li {
+#skills ul li {
   border: 2px solid white;
   padding: 15px;
   width: 400px;
 }
 
-#competences #ligne1,
-#ligne2,
-#ligne3 {
+#skills #section {
   display: flex;
   justify-content: space-evenly;
 }
 
-#competences #java,
+#skills #java,
 #ligne2,
 #ligne3 {
   background: rgba(0, 0, 0, 0.15);
@@ -193,53 +191,53 @@ header #titre p {
   padding-top: 5px;
 }
 
-#competences p {
+#skills p {
   font-size: 14px;
 }
 
-#competences #colonne img {
+#skills #column img {
   width: 30px;
   height: 30px;
   margin-bottom: 8px;
 }
 
-#competences #colonne {
+#skills #column {
   display: flex;
   justify-content: space-evenly;
   min-width: 100px;
   max-width: 400px;
 }
 
-#competences #colonne p {
+#skills #column p {
   padding-bottom: 25px;
 }
 
-#competences h2:last-of-type {
+#skills h2:last-of-type {
   padding-bottom: 60px;
 }
 
 /****************
-  VALEURS
+  values
 *****************/
 
-#valeurs .skewedBox3 {
+#values .skewedBox3 {
   background: whitesmoke;
   transform: skew(0deg, -4deg) translateY(-70px);
   padding-bottom: 150px;
   color: black;
 }
 
-#valeurs .container {
+#values .container {
   transform: skew(0deg, 4deg) translateY(100px);
 }
 
-#valeurs img {
+#values img {
   width: 240p;
   height: 200px;
   object-fit: cover;
 }
 
-#valeurs .card-group:first-of-type {
+#values .card-group:first-of-type {
   margin-bottom: 15px;
 }
 
@@ -283,53 +281,53 @@ header #titre p {
   padding-top: 0;
 }
 
-#portfolio #fond {
+#portfolio #background {
   background: rgba(0, 0, 0, 0.6);
   padding: 10px 0px 10px 0px;
 }
 
 /****************
-  VISIBILITE
+  exposure
 *****************/
 
-#visibilite .skewedBox5 {
+#exposure .skewedBox5 {
   background: whitesmoke;
   color: black;
   transform: skew(0deg, -4deg) translateY(-170px);
   padding-bottom: 120px;
 }
 
-#visibilite .container {
+#exposure .container {
   transform: skew(0deg, 4deg) translateY(80px);
   width: 1060px;
 }
 
-#visibilite #my-player {
+#exposure #my-player {
   width: 692px;
   height: 388px;
 }
 
-#visibilite #video {
+#exposure #video {
   text-align: center;
 }
 
-#visibilite .width {
+#exposure .width {
   width: 700px;
   margin-right: auto;
   margin-left: auto;
 }
 
-#visibilite .cards {
+#exposure .cards {
   padding-top: 50px;
 }
 
-#visibilite .cards img {
+#exposure .cards img {
   width: 240p;
   height: 200px;
   object-fit: cover;
 }
 
-#visibilite .cards img:hover {
+#exposure .cards img:hover {
   filter: brightness(45%);
 }
 
@@ -512,35 +510,35 @@ footer #footer img {
   #presentation article p {
     text-align: center;
   }
-  #competences ul {
+  #skills ul {
     flex-direction: column;
   }
-  #competences ul li {
+  #skills ul li {
     border: 1px solid white;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
-  #competences ul li:first-of-type {
+  #skills ul li:first-of-type {
     margin-bottom: 25px;
   }
-  #competences p {
+  #skills p {
     font-size: 12px;
   }
-  #valeurs img {
+  #values img {
     width: 300px;
     height: 240px;
   }
-  #valeurs h2 {
+  #values h2 {
     margin-bottom: 15px;
   }
-  #valeurs .width {
+  #values .width {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
   }
-  #valeurs .card-group:first-of-type {
+  #values .card-group:first-of-type {
     margin-bottom: 0px;
   }
   #carouselExampleCaptions img {
@@ -557,25 +555,25 @@ footer #footer img {
   #portfolio #carousel2 {
     font-size: 10px;
   }
-  #portfolio #fond {
+  #portfolio #background {
     padding: 0px;
   }
   #portfolio .button {
     margin-bottom: 15px;
     font-size: 12px;
   }
-  #visibilite .container {
+  #exposure .container {
     width: 350px;
   }
-  #visibilite #my-player {
+  #exposure #my-player {
     width: 300px;
     height: 170px;
     margin-bottom: 10px;
   }
-  #visibilite .width {
+  #exposure .width {
     width: 300px;
   }
-  #visibilite .cards img {
+  #exposure .cards img {
     width: 280px;
     height: 240px;
     margin-top: 15px;
