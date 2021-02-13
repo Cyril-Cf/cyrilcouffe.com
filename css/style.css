@@ -512,6 +512,8 @@ footer #footer img {
     margin-left: 10px;
   }
   header #flag {
+    width: 20px;
+    height: 10px;
     margin-right: 15px;
     align-content: right;
   }
