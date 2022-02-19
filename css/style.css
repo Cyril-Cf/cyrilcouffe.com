@@ -52,12 +52,6 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
-img {
-  max-width: 400px;
-  max-height: 40px;
-  object-fit: scale-down;
-}
-
 /****************
   STYLE PAR SECTION
 *****************/
