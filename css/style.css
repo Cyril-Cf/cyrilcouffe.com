@@ -53,8 +53,8 @@ h1 {
 }
 
 img {
-  max-width: auto;
-  max-height: auto;
+  max-width: 400px;
+  max-height: 40px;
   object-fit: scale-down;
 }
 
