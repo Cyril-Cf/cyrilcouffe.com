@@ -52,6 +52,12 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
+img {
+  max-width: auto;
+  max-height: auto;
+  object-fit: cover;
+}
+
 /****************
   STYLE PAR SECTION
 *****************/
