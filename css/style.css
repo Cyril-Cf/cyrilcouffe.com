@@ -55,7 +55,7 @@ h1 {
 img {
   max-width: auto;
   max-height: auto;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 /****************
